@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_transaction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorabu"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:orientation="vertical"
+    tools:context="com.manage.anodev.inoutcome.menunavigation.TransactionActivity"
+    tools:showIn="@layout/activity_transaction">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv_expenses"
+        style="@style/cv"
+        card_view:cardCornerRadius="5dp"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="New Expense"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:id="@+id/textView3" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:hint="Description"
+                android:layout_weight="0.25"
+                android:ems="10"
+                android:id="@+id/et_descripexpense" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:hint="Amount"
+                android:layout_weight="0.25"
+                android:ems="10"
+                android:id="@+id/et_amountexpense" />
+
+            <Button
+                android:text="Add Expense"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:id="@+id/btn_addexpense" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cv_income"
+        style="@style/cv"
+        card_view:cardCornerRadius="5dp"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="New Income"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:id="@+id/tv_income" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:textAlignment="center"
+                android:hint="Description"
+                android:layout_weight="0.25"
+                android:ems="10"
+                android:id="@+id/et_descripincome" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textAlignment="center"
+                android:hint="Amount"
+                android:layout_weight="0.25"
+                android:ems="10"
+                android:id="@+id/et_amountincome" />
+
+            <Button
+                android:text="Add Income"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.25"
+                android:id="@+id/btn_addincome" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">InoutCome</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_first_fragment_dashboard">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- Splash activity-->
+
+    <string name="title_activity_splash">
+        SplashActivity
+    </string>
+    <string name="title_activity_splash_about">
+        Let\'s control your expanse
+    </string>
+    <string name="title_activity_splash_app">
+        InoutCome
+    </string>
+
+    <!-- Navigasi menu-->
+    <string name="nav_menu_tittle_dashboard">Dashboard</string>
+    <string name="nav_menu_tittle_transaction">Transaction</string>
+    <string name="nav_menu_tittle_syncron">Syncronize</string>
+    <string name="nav_menu_tittle_logout">Logout</string>
+
+    <!-- Dashboard activity-->
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_activity_dashboard_hint_password">Password</string>
+    <string name="title_activity_dashboard_hint_email">Email</string>
+
+    <!-- Login activity-->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="tittle_activity_login_btn_login">Login</string>
+    <string name="title_activity_login_validasi_email">Input your email</string>
+    <string name="title_activity_login_validasi_password">Input your password</string>
+    <string name="title_activity_alert_incorect_alertdi">Alert Dialog</string>
+    <string name="title_activity_alert_incorect_alertc">Error connection</string>
+    <string name="title_activity_alert_incorect_text">Incorrect password</string>
+    <string name="title_activity_alert_incorect_try">Try</string>
+
+    <!-- Register activity-->
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <!-- Transaction activity-->
+    <string name="title_activity_transaction">TransactionActivity</string>
+
+    <!-- Syncronize activity-->
+    <string name="title_activity_syncronize">SyncronizeActivity</string>
+</resources>
